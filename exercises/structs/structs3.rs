@@ -3,7 +3,7 @@
 // exercise we have defined the Package struct and we want to test some logic attached to it,
 // make the code compile and the tests pass! If you have issues execute `rustlings hint structs3`
 
-// I AM NOT DONE
+
 
 #[derive(Debug)]
 struct Package {
@@ -15,7 +15,7 @@ struct Package {
 impl Package {
     fn new(sender_country: String, recipient_country: String, weight_in_grams: i32) -> Package {
         if weight_in_grams <= 0 {
-            //return Package {sender_country, recipient_country, weight_in_grams};
+            panic!("crash and burn");
         }else {
             return Package {sender_country, recipient_country, weight_in_grams};
         }

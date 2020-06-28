@@ -24,7 +24,7 @@
                 "environment": [], 
                 "externalConsole": false, 
                 "MIMode": "gdb", 
-                "miDebuggerPath": "这里填GDB所在的目录", 
+                "miDebuggerPath": "C:\\RBuildTools\\3.5\\mingw_64\\bin/gdb.exe", 
                 "setupCommands": [ 
                     { 
                         "description": "为 gdb 启用整齐打印", 

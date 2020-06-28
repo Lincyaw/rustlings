@@ -1,14 +1,11 @@
-{
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "cargo",
-			"subcommand": "build",
-			"problemMatcher": [
-				"$rustc"
-			],
-			"group": "build",
-			"label": "Rust: cargo build - rustlings"
-		}
-	]
-}
+{ 
+	    "version": "2.0.0", 
+	    "tasks": [ 
+	        { 
+	            "label": "build", 
+	            "type": "shell", 
+	            "command":"cargo", 
+	            "args": ["build"] 
+	        } 
+	    ] 
+	}
