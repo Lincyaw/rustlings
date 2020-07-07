@@ -14,3 +14,15 @@ struct3中的创建结构体失败的那个test不知道要做啥。
 
 
 
+2020年7月3日16:38:24
+
+补发
+
+★ All exercises completed! ★
+
+We hope you enjoyed learning about the various aspects of Rust!
+If you noticed any issues, please don't hesitate to report them to our repo.
+You can also contribute your own exercises to help the greater community!
+
+Before reporting an issue or contributing, please read our guidelines:
+https://github.com/rust-lang/rustlings/blob/main/CONTRIBUTING.md
